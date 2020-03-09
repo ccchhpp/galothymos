@@ -13,12 +13,19 @@ html, body, #wrapper {
        text-align: center;
     }
 </style>
+    
+<script>
+var huh = new Audio();
+huh.src = "GaloHuh.mp3";
+</script>
+    
 </head>
     
 <body>
    <table id="wrapper">
       <tr>
-         <td>welcome to the<br>galoverse<br><br><img src="/images/galo.png"><br></td>
+         <td>welcome to the<br>galoverse<br><br><a href="#" onmousedown="huh.play()"><img src="/images/galo.png"></a>
+             <br></td>
       </tr>
    </table>
 </body>
